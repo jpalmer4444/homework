@@ -1,0 +1,9 @@
+com.sproutsocial
+com.sproutsocial.api
+com.sproutsocial.core.exception
+com.sproutsocial.core.mapping
+com.sproutsocial.core.svc
+com.sproutsocial.core.svc.impl
+com.sproutsocial.db
+com.sproutsocial.health
+com.sproutsocial.resources

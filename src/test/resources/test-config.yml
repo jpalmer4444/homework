@@ -1,0 +1,26 @@
+logging:
+  level: INFO
+  loggers:
+    com.sproutsocial: DEBUG
+  appenders:
+    - type: console
+      threshold: ALL
+      timeZone: UTC
+      target: stdout
+    
+twitterConsumerKey: shbejGN8c32Vukr6c80F1C1nx
+twitterConsumerSecret: vK3vuEvfFE7StI7deuZIdlYg43LBH5rrX6eBXlcd6i3mGFAmZ5
+
+database:
+  driverClass: org.sqlite.JDBC
+  url: jdbc:sqlite:/Users/jpalmer/Downloads/drop-wizard/sprout.db
+  properties:
+    charSet: UTF-8
+  maxWaitForConnection: 1s
+  validationQuery: "/* Homework Health Check */ SELECT 1"
+  validationQueryTimeout: 3s
+  minSize: 8
+  maxSize: 32
+  checkConnectionWhileIdle: false
+  evictionInterval: 10s
+  minIdleTime: 1 minute
